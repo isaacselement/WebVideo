@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE81A29817B09916005B86D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81A29717B09916005B86D1 /* UIKit.framework */; };
+		CE81A29A17B09916005B86D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81A29917B09916005B86D1 /* Foundation.framework */; };
+		CE81A29C17B09916005B86D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81A29B17B09916005B86D1 /* CoreGraphics.framework */; };
+		CE81A2A217B09916005B86D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE81A2A017B09916005B86D1 /* InfoPlist.strings */; };
+		CE81A2A417B09916005B86D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81A2A317B09916005B86D1 /* main.m */; };
+		CE81A2A817B09916005B86D1 /* NDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81A2A717B09916005B86D1 /* NDAppDelegate.m */; };
+		CE81A2AA17B09916005B86D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81A2A917B09916005B86D1 /* Default.png */; };
+		CE81A2AC17B09916005B86D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81A2AB17B09916005B86D1 /* Default@2x.png */; };
+		CE81A2AE17B09916005B86D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE81A2AD17B09916005B86D1 /* Default-568h@2x.png */; };
+		CE81A2B117B09916005B86D1 /* NDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81A2B017B09916005B86D1 /* NDViewController.m */; };
+		CE81A2B417B09916005B86D1 /* NDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE81A2B217B09916005B86D1 /* NDViewController.xib */; };
+		CE81A2BF17B09963005B86D1 /* ALWebMoviePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81A2BC17B09963005B86D1 /* ALWebMoviePlayer.m */; };
+		CE81A2C017B09963005B86D1 /* ALWebVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE81A2BE17B09963005B86D1 /* ALWebVideoView.m */; };
+		CE81A2C317B09984005B86D1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE81A2C117B09976005B86D1 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE81A29417B09916005B86D1 /* WebVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE81A29717B09916005B86D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE81A29917B09916005B86D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE81A29B17B09916005B86D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE81A29F17B09916005B86D1 /* WebVideo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebVideo-Info.plist"; sourceTree = "<group>"; };
+		CE81A2A117B09916005B86D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE81A2A317B09916005B86D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE81A2A517B09916005B86D1 /* WebVideo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebVideo-Prefix.pch"; sourceTree = "<group>"; };
+		CE81A2A617B09916005B86D1 /* NDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDAppDelegate.h; sourceTree = "<group>"; };
+		CE81A2A717B09916005B86D1 /* NDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDAppDelegate.m; sourceTree = "<group>"; };
+		CE81A2A917B09916005B86D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CE81A2AB17B09916005B86D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CE81A2AD17B09916005B86D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE81A2AF17B09916005B86D1 /* NDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NDViewController.h; sourceTree = "<group>"; };
+		CE81A2B017B09916005B86D1 /* NDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NDViewController.m; sourceTree = "<group>"; };
+		CE81A2B317B09916005B86D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NDViewController.xib; sourceTree = "<group>"; };
+		CE81A2BB17B09963005B86D1 /* ALWebMoviePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWebMoviePlayer.h; sourceTree = "<group>"; };
+		CE81A2BC17B09963005B86D1 /* ALWebMoviePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWebMoviePlayer.m; sourceTree = "<group>"; };
+		CE81A2BD17B09963005B86D1 /* ALWebVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALWebVideoView.h; sourceTree = "<group>"; };
+		CE81A2BE17B09963005B86D1 /* ALWebVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALWebVideoView.m; sourceTree = "<group>"; };
+		CE81A2C117B09976005B86D1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE81A29117B09916005B86D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81A2C317B09984005B86D1 /* MediaPlayer.framework in Frameworks */,
+				CE81A29817B09916005B86D1 /* UIKit.framework in Frameworks */,
+				CE81A29A17B09916005B86D1 /* Foundation.framework in Frameworks */,
+				CE81A29C17B09916005B86D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE81A28B17B09916005B86D1 = {
+			isa = PBXGroup;
+			children = (
+				CE81A29D17B09916005B86D1 /* WebVideo */,
+				CE81A29617B09916005B86D1 /* Frameworks */,
+				CE81A29517B09916005B86D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE81A29517B09916005B86D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE81A29417B09916005B86D1 /* WebVideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE81A29617B09916005B86D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE81A2C117B09976005B86D1 /* MediaPlayer.framework */,
+				CE81A29717B09916005B86D1 /* UIKit.framework */,
+				CE81A29917B09916005B86D1 /* Foundation.framework */,
+				CE81A29B17B09916005B86D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE81A29D17B09916005B86D1 /* WebVideo */ = {
+			isa = PBXGroup;
+			children = (
+				CE81A2BA17B09963005B86D1 /* Share */,
+				CE81A2A617B09916005B86D1 /* NDAppDelegate.h */,
+				CE81A2A717B09916005B86D1 /* NDAppDelegate.m */,
+				CE81A2AF17B09916005B86D1 /* NDViewController.h */,
+				CE81A2B017B09916005B86D1 /* NDViewController.m */,
+				CE81A2B217B09916005B86D1 /* NDViewController.xib */,
+				CE81A29E17B09916005B86D1 /* Supporting Files */,
+			);
+			path = WebVideo;
+			sourceTree = "<group>";
+		};
+		CE81A29E17B09916005B86D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE81A29F17B09916005B86D1 /* WebVideo-Info.plist */,
+				CE81A2A017B09916005B86D1 /* InfoPlist.strings */,
+				CE81A2A317B09916005B86D1 /* main.m */,
+				CE81A2A517B09916005B86D1 /* WebVideo-Prefix.pch */,
+				CE81A2A917B09916005B86D1 /* Default.png */,
+				CE81A2AB17B09916005B86D1 /* Default@2x.png */,
+				CE81A2AD17B09916005B86D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE81A2BA17B09963005B86D1 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				CE81A2BB17B09963005B86D1 /* ALWebMoviePlayer.h */,
+				CE81A2BC17B09963005B86D1 /* ALWebMoviePlayer.m */,
+				CE81A2BD17B09963005B86D1 /* ALWebVideoView.h */,
+				CE81A2BE17B09963005B86D1 /* ALWebVideoView.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE81A29317B09916005B86D1 /* WebVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE81A2B717B09916005B86D1 /* Build configuration list for PBXNativeTarget "WebVideo" */;
+			buildPhases = (
+				CE81A29017B09916005B86D1 /* Sources */,
+				CE81A29117B09916005B86D1 /* Frameworks */,
+				CE81A29217B09916005B86D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebVideo;
+			productName = WebVideo;
+			productReference = CE81A29417B09916005B86D1 /* WebVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE81A28C17B09916005B86D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ND;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = user;
+			};
+			buildConfigurationList = CE81A28F17B09916005B86D1 /* Build configuration list for PBXProject "WebVideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE81A28B17B09916005B86D1;
+			productRefGroup = CE81A29517B09916005B86D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE81A29317B09916005B86D1 /* WebVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE81A29217B09916005B86D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81A2A217B09916005B86D1 /* InfoPlist.strings in Resources */,
+				CE81A2AA17B09916005B86D1 /* Default.png in Resources */,
+				CE81A2AC17B09916005B86D1 /* Default@2x.png in Resources */,
+				CE81A2AE17B09916005B86D1 /* Default-568h@2x.png in Resources */,
+				CE81A2B417B09916005B86D1 /* NDViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE81A29017B09916005B86D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE81A2A417B09916005B86D1 /* main.m in Sources */,
+				CE81A2A817B09916005B86D1 /* NDAppDelegate.m in Sources */,
+				CE81A2B117B09916005B86D1 /* NDViewController.m in Sources */,
+				CE81A2BF17B09963005B86D1 /* ALWebMoviePlayer.m in Sources */,
+				CE81A2C017B09963005B86D1 /* ALWebVideoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE81A2A017B09916005B86D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE81A2A117B09916005B86D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE81A2B217B09916005B86D1 /* NDViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE81A2B317B09916005B86D1 /* en */,
+			);
+			name = NDViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE81A2B517B09916005B86D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE81A2B617B09916005B86D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE81A2B817B09916005B86D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebVideo/WebVideo-Prefix.pch";
+				INFOPLIST_FILE = "WebVideo/WebVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE81A2B917B09916005B86D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebVideo/WebVideo-Prefix.pch";
+				INFOPLIST_FILE = "WebVideo/WebVideo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE81A28F17B09916005B86D1 /* Build configuration list for PBXProject "WebVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE81A2B517B09916005B86D1 /* Debug */,
+				CE81A2B617B09916005B86D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE81A2B717B09916005B86D1 /* Build configuration list for PBXNativeTarget "WebVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE81A2B817B09916005B86D1 /* Debug */,
+				CE81A2B917B09916005B86D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE81A28C17B09916005B86D1 /* Project object */;
+}
